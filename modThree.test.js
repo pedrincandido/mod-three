@@ -1,5 +1,4 @@
-const { modThree } = require('./modThree'); 
-
+import { modThree } from "./modThree";
 
 describe('modThree function', () => {
   test('should return 1 for binary string "1101"', () => {

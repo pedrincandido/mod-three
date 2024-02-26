@@ -33,7 +33,6 @@ export class FiniteStateMachine {
 
   processInput(inputString: string) {
     for (const symbol of inputString) {
-      // Ensure that each character of the input string is a valid BinarySymbol
       const inputSymbol = symbol as BinarySymbol;
       if (!this.alphabet.includes(inputSymbol)) {
         throw new Error(`Invalid symbol '${symbol}' in input string.`);
