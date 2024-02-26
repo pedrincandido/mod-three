@@ -1,0 +1,1 @@
+export type BinarySymbol = '0' | '1';
